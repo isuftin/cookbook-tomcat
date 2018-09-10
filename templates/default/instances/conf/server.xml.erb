@@ -160,6 +160,7 @@
                   secure="<%= ssl_connector.key?('secure') ? ssl_connector['secure'] : "true" %>"
                   keystoreFile="${catalina.home}/ssl/<%= name %>.jks"
                   keystorePass="<%= @keystore_password %>"
+                  maxHttpHeaderSize="<%= ssl_connector.key?('max_http_header_size') ? ssl_connector['max_http_header_size'] : 8192 %>"
                   <% if ssl_connector.key?('ssl_protocol') %>
                   SSLProtocol="<%= ssl_connector['ssl_protocol'] %>"
                   <% end  %>

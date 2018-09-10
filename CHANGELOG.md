@@ -5,6 +5,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [UNRELEASED]
 
+## [1.2.3] - 2018-09-10
+### Updated
+- [zmoore@usgs.gov] - Added httpMaxHeaderSize parameter to the SSL Connector in the server.xml template
+
 ## [1.2.2] - 2017-08-15
 ### Updated
 - [jmorris@usgs.gov] - Updated metadata.platforms so cookbook could be uploaded to chef server
